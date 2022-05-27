@@ -1,9 +1,14 @@
 const initialState = {
     posts: {
-        results: [],
-        count: 0,
-        next: null,
-        previous: null
+        list: [],
+    },
+    items: {
+        list: [],
+        price: "",
+    },
+    carts: {
+        list : [],
+        subtotal: 0
     }
 };
 
